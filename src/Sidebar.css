@@ -1,0 +1,25 @@
+.sidebar{
+    border: 1px solid black;
+    height: 100vh;
+    /* using remaining 20% of space in flex */
+    flex: 0.2;
+    color: white;
+    min-width: 230px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #040404;
+}
+
+.sidebar_logo{
+    /* object-fit: contain; /*IMP as aspect ratio maintain krta vrna height width dene se ajeeb sa ho jaata */
+    /*width: 100px; */
+    margin-right: auto;
+    padding: 10px;
+    height: 70px;
+}
+
+.sidebar_title{
+    margin-left: 10px;
+    padding: 5px;
+    font-size: 12px;
+}
